@@ -1,3 +1,3 @@
-function forLoop() {
-
-}
+function forLoop(array) {
+  for (var i = 0; i < 25; i++) {
+    25}
