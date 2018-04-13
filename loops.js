@@ -9,12 +9,12 @@
 //   return array
 // }
 
-// function forLoop(array) {
-//   for (var i = 0; i < 25; i++) {
-//     array.push(`"${i === 1 ? `I am ${i} strange loop` : `I am ${i} strange loops`}"`)
-//   }
-//   return array
-// }
+function forLoop(array) {
+  for (var i = 0; i < 25; i++) {
+    array.push(`${i === 1 ? `I am ${i} strange loop` : `I am ${i} strange loops`}`)
+  }
+  return array
+}
 
 // function forLoop(array) {
 //   for (var i = 0; i < 25; i++) {
