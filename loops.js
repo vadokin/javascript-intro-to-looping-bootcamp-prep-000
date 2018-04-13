@@ -37,5 +37,5 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
 
-  } while (array === {} && );
+  } while (array === {} && maybeTrue());
 }
