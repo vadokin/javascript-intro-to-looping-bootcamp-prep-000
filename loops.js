@@ -34,14 +34,14 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function doWhileLoop(array) {
-  do {
-    array.pop()
-  } while (!(array.length === 0) && maybeTrue());
-}
+// function doWhileLoop(array) {
+//   do {
+//     array.pop()
+//   } while (!(array.length === 0) && maybeTrue());
+// }
 
 function doWhileLoop(array) {
   do {
     array.pop()
-  } while (!(array.length === 0) && maybeTrue());
+  } while (array.length > 0 && maybeTrue());
 }
